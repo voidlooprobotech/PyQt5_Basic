@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Void Loop Robotech")
         self.setGeometry(700, 300, 500, 500)
         self.setWindowIcon( QIcon("logo1.png"))
-        label = QLabel("Hello", self)
+        label = QLabel("void loop robotech", self)
         label.setFont(QFont("Arial", 18))
         label.setGeometry(0, 0, 500, 100)
         label.setStyleSheet("color: #0707f2;"
